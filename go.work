@@ -4,6 +4,7 @@ use (
 	./echo-server
 	./http-server
 	./jwt
+	./kafka-go
 	./mqtt
 	./option_pattern
 	./requests
