@@ -1,0 +1,10 @@
+go 1.18
+
+use (
+	./echo-server
+	./http-server
+	./jwt
+	./mqtt
+	./option_pattern
+	./requests
+)
