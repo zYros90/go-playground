@@ -2,6 +2,8 @@ go 1.18
 
 use (
 	./echo-server
+	./gin
+	./graphql
 	./http-server
 	./jwt
 	./kafka-go
