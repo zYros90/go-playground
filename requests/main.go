@@ -7,13 +7,13 @@ import (
 )
 
 func main() {
-	employees, err := examples.GetExampleEmployees("https://dummy.restapiexample.com/api/v1/employees")
+	employees, err := examples.GetExampleEmployees("https://dummy.restapigithub.com/zYros90/go-playground/api/v1/employees")
 	if err != nil {
 		log.Fatal(err)
 	}
 	fmt.Println("number of employees: ", len(employees.Data))
 
-	employee, err := examples.PostExampleEmployees("https://dummy.restapiexample.com/api/v1/create")
+	employee, err := examples.PostExampleEmployees("https://dummy.restapigithub.com/zYros90/go-playground/api/v1/create")
 	if err != nil {
 		log.Fatal(err)
 	}
